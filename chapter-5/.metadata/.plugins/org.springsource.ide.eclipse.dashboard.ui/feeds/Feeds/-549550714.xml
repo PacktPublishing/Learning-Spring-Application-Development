@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Spring</title>
+  <link rel="alternate" href="https://spring.io/blog" />
+  <link rel="self" href="https://spring.io/blog.atom" />
+  <id>http://spring.io/blog.atom</id>
+  <icon>https://spring.io/favicon.ico</icon>
+  <updated>2015-04-07T17:55:39Z</updated>
+  <entry>
+    <title>This Week in Spring - April 7th, 2015</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/04/07/this-week-in-spring-april-7th-2015" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2015-04-07:2068</id>
+    <updated>2015-04-07T17:55:39Z</updated>
+    <content type="html">&lt;p&gt;Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! This week, I&amp;rsquo;m off to Paris, France for Devoxx France. Many of us on the Spring and Cloud Foundry teams will be there, so don&amp;rsquo;t hesitate &lt;a href="http://twitter.com/starbuxman"&gt;to reach out&lt;/a&gt; if you&amp;rsquo;re about, we&amp;rsquo;d love to hear from you! Also, even if you&amp;rsquo;re not at the show, come &lt;a href="https://www.eventbrite.com/e/venez-decouvrir-devoxx-france-le-temps-dune-soiree-tickets-16446026508"&gt;meet many of us on the Spring team (including Juergen Hoeller himself, Stéphane Nicoll, Brian Clozel, Sébastien Deleuze and of course yours truly) at this free Devoxx France event&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Also, this Thursday I&amp;rsquo;ll be speaking at the vJUG again, &lt;a href="http://www.meetup.com/virtualJUG/events/221218834/"&gt;this time on building microservices with Spring Cloud&lt;/a&gt;. Don&amp;rsquo;t miss it!&lt;/p&gt;&lt;p&gt;Erratum: @springjuergen, @snicoll, @sdeleuze, @brianclozel mais aussi très probablement @starbuxman. Pas d&amp;rsquo;excuses : eventbrite.com/e/venez-decouv…&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Matt Stine just announced the availability of two new guides and related Spring Cloud support for &lt;a href="https://spring.io/blog/2015/04/06/lattice-and-spring-cloud-resilient-sub-structure-for-your-cloud-native-spring-applications"&gt;building Spring applications with Docker and running them on the Lattice distributed runtime&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring framework lead Juergen Hoeller put together a nice post &lt;a href="https://spring.io/blog/2015/04/01/ongoing-support-for-java-7-and-even-java-6"&gt;highlighting the continued, ongoing support for Java 6, 7, and 8 in Spring framework&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;and then Spring framework ninja Stéphane Nicoll followed up with a look at how, exactly, Spring maintains its precarious &lt;a href="https://spring.io/blog/2015/04/03/how-spring-achieves-compatibility-with-java-6-7-and-8"&gt;backwards compatibility across Java 6, 7, and 8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Boot co-lead Phil Webb just announced that &lt;a href="https://spring.io/blog/2015/03/31/spring-boot-1-1-12-released"&gt;Spring Boot 1.1.12&lt;/a&gt; and &lt;a href="https://spring.io/blog/2015/03/31/spring-boot-1-2-3-released"&gt;Spring Boot 1.2.3 are now available&lt;/a&gt;&lt;br/&gt;-&lt;a href="https://spring.io/blog/2015/04/03/spring-for-apache-hadoop-2-1-2-released"&gt;Big-data ninja Thomas Risberg just released Spring for Apache Hadoop 2.1.2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Social lead Craig Walls just announced &lt;a href="https://spring.io/blog/2015/04/07/spring-social-facebook-2-0-0-rc1-released"&gt;Spring Social Facebook 2.0.0.RC1&lt;/a&gt;. The new release brings Spring Social Facebook up to version 2.3 of the Facebook API and includes backwards incompatible changes.&lt;/li&gt;
+  &lt;li&gt;Spring ninja Greg Turnquist has converted the good Dr. Dave Syer&amp;rsquo;s epic &lt;a href="https://spring.io/blog/2015/04/02/check-out-dave-syer-s-spring-security-and-angularjs-blog-series-converted-to-tutorial"&gt;blog series on single page application security with Spring Security OAuth, Spring Cloud and Angular.js into a tutorial&lt;/a&gt;! Hurray!&lt;/li&gt;
+  &lt;li&gt;Spring ninja Andy Wilkinson just announced the latest cut &lt;a href="https://spring.io/blog/2015/04/01/spring-io-platform-1-1-2-released"&gt;of the Spring IO Platform BOM, 1.1.2&lt;/a&gt; and &lt;a href="https://spring.io/blog/2015/04/01/spring-io-platform-1-0-5-released"&gt;Spring IO Platform 1.0.5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Security lead Rob Winch has just &lt;a href="https://spring.io/blog/2015/04/02/spring-security-kerberos-1-0-0-rc2-released"&gt;announced Spring Security Kerbreros 1.0.0.RC2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Integration ninja Artem Bilan just announced &lt;a href="https://spring.io/blog/2015/04/07/spring-amqp-1-4-4-and-spring-integration-3-0-7-4-0-7-and-4-1-3-are-available"&gt;Spring AMQP 1.4.4 and Spring Integration 3.0.7, 4.0.7, and 4.1.3 are now available&lt;/a&gt;. These are mostly maintenance releases.&lt;/li&gt;
+  &lt;li&gt;Not strictly Spring-related, but I enjoyed this post, &lt;a href="http://product.hubspot.com/blog/upgrading-to-java-8-at-scale"&gt;&lt;em&gt;Upgrading Java 8 at scale&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check out this post (that follows &lt;a href="http://java.dzone.com/articles/building-microservices-spring"&gt;this first installment from 2014&lt;/a&gt; ) by Sergei Egorov on building &lt;a href="http://bsideup.blogspot.de/2015/04/spring-boot-thrift-part2.html"&gt;microservices with Spring Boot, Apache Thrift and Facebook&amp;rsquo;s Swift (which removes Swift IDL files for server code)&lt;/a&gt;. You might &lt;em&gt;also&lt;/em&gt; revisit my post from a few weeks ago on using &lt;a href="https://spring.io/blog/2015/03/22/using-google-protocol-buffers-with-spring-mvc-based-rest-services"&gt;Spring framework&amp;rsquo;s Google Protocol Buffers support&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Our friend is back, this time with a post on cleanly &lt;a href="http://www.petrikainulainen.net/programming/spring-framework/spring-from-the-trenches-injecting-property-values-into-configuration-beans/"&gt;injecting configuration properties into Spring beans&lt;/a&gt;. Ultimately, this looks very similar to Spring Boot&amp;rsquo;s &lt;code&gt;@ConfigurationProperties&lt;/code&gt; mechanism, so check that out if you&amp;rsquo;re using Spring Boot!&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://learningspringapplicationdevelopment.com/"&gt;Packt has just published a new book on Spring framework &lt;/a&gt; by a Ravi Kant Soni.&lt;/li&gt;
+  &lt;li&gt;You know what made my day? Seeing the third party Vaadin support for Spring Boot enumerated among the checkboxes &lt;a href="http://start.spring.io"&gt;on the Spring Initialzr&lt;/a&gt;. That&amp;rsquo;s awesome!&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Social Facebook 2.0.0.RC1 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/04/07/spring-social-facebook-2-0-0-rc1-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Craig Walls</name>
+    </author>
+    <id>tag:spring.io,2015-04-07:2067</id>
+    <updated>2015-04-07T15:00:00Z</updated>
+    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;&lt;p&gt;I&amp;rsquo;m pleased to announce the release of &lt;a href="http://projects.spring.io/spring-social-facebook/"&gt;Spring Social Facebook&lt;/a&gt; 2.0.0.RC1. This release candidate brings Spring Social Facebook&amp;rsquo;s API binding to target version 2.3 of Facebook&amp;rsquo;s Graph API.&lt;/p&gt;&lt;p&gt;View the release notes &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10607&amp;version=14864"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Be aware that due to many breaking changes in Facebook&amp;rsquo;s Graph API between v1.0 and v2.0, plus additional changes up through v2.3, there are some necessary breaking changes in this version of Spring Social Facebook. Also, because of the large number of breaking changes already imposed upon Spring Social Facebook by changes in the Graph API, we decided to take this opportunity to rename a few types to be more consistent with Facebook&amp;rsquo;s terminology. (For example, the FacebookProfile class is now named User to be consistent with Facebook&amp;rsquo;s documentation.)&lt;/p&gt;&lt;p&gt;Facebook will be dropping support for Graph API v1.0 on April 30th. It is advised that you start using Spring Social Facebook 2.0.0.RC1 immediately in anticipation of Spring Social Facebook 2.0.0.RELEASE, planned for next week. &lt;/p&gt;&lt;p&gt;Although this release went through a very thorough testing process, including both automated and manual tests against the actual Facebook Graph API, it&amp;rsquo;s very possible that something was missed. If you run into any problems, please &lt;a href="http://jira.spring.io/browse/SOCIALFB"&gt;file a bug&lt;/a&gt; to let us know so that it can be fixed before 2.0.0.RELEASE.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring AMQP 1.4.4 and Spring Integration 3.0.7, 4.0.7 and 4.1.3 are available</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/04/07/spring-amqp-1-4-4-and-spring-integration-3-0-7-4-0-7-and-4-1-3-are-available" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Artem Bilan</name>
+    </author>
+    <id>tag:spring.io,2015-04-03:2064</id>
+    <updated>2015-04-07T00:00:00Z</updated>
+    <content type="html">&lt;p&gt;Dear Spring community,&lt;/p&gt;&lt;p&gt;On behalf of the Spring Integration/AMQP team I&amp;rsquo;m pleased to announce that we have released a number of maintenance releases (click the links in the following bullets to see the corresponding release notes):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring AMQP &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10450&amp;version=14927"&gt;1.4.4&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Spring Integration &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10121&amp;version=14823"&gt;3.0.7&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Spring Integration &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10121&amp;version=14860"&gt;4.0.7&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Spring Integration &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10121&amp;version=14897"&gt;4.1.3&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;All of these releases are available from the &lt;a href="http://repo.springsource.org/release"&gt;Release Repository&lt;/a&gt;, as well as from Maven Central.&lt;/p&gt;&lt;p&gt;Thank you very much for everyone involved!&lt;/p&gt;&lt;p&gt;We are working on the first milestone for the Spring AMQP &lt;code&gt;1.5&lt;/code&gt; release in the next several weeks, which will have some new features such as support for the RabbitMQ Management HTTP API, RabbitMQ &lt;code&gt;3.5&lt;/code&gt; compatibility and other improvements. &lt;/p&gt;&lt;p&gt;Spring Integration &lt;code&gt;4.2&lt;/code&gt; Milestone 1 is planned to be released in a month or so with full support for Spring Framework &lt;code&gt;4.2&lt;/code&gt;, with feature candidates such as STOMP and Zookeeper adapters, as well as JMX metrics improvements and many others.&lt;/p&gt;&lt;p&gt;Stay in touch and don&amp;rsquo;t hesitate to share any ideas or issues with us! &lt;/p&gt;&lt;p&gt;&lt;a href="http://projects.spring.io/spring-amqp/"&gt;Spring AMQP Home Page&lt;/a&gt; | &lt;a href="https://jira.spring.io/browse/AMQP"&gt;JIRA&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-amqp/wiki"&gt;Contributions&lt;/a&gt; | &lt;a href="http://stackoverflow.com"&gt;StackOverflow&lt;/a&gt; (&lt;code&gt;spring-amqp&lt;/code&gt;)&lt;/p&gt;&lt;p&gt;&lt;a href="http://projects.spring.io/spring-integration/"&gt;Spring Integration Home Page&lt;/a&gt; | &lt;a href="https://jira.spring.io/browse/INT"&gt;JIRA&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-integration/blob/master/CONTRIBUTING.md"&gt;Contributions&lt;/a&gt; | &lt;a href="http://stackoverflow.com"&gt;StackOverflow&lt;/a&gt; (&lt;code&gt;spring-integration&lt;/code&gt;)&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Lattice and Spring Cloud: Resilient Sub-structure for Your Cloud-Native Spring Applications</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/04/06/lattice-and-spring-cloud-resilient-sub-structure-for-your-cloud-native-spring-applications" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Matt Stine</name>
+    </author>
+    <id>tag:spring.io,2015-04-06:2066</id>
+    <updated>2015-04-06T20:39:57Z</updated>
+    <content type="html">&lt;p&gt;We believe that the development of &lt;a href="http://pivotal.io/platform-as-a-service/migrating-to-cloud-native-application-architectures-ebook"&gt;cloud-native application architectures&lt;/a&gt; is the next great evolutionary phase of enterprise application development. These architectures combine elements like &lt;a href="http://12factor.net"&gt;twelve-factor applications&lt;/a&gt;, &lt;a href="http://martinfowler.com/articles/microservices.html"&gt;microservices&lt;/a&gt;, &lt;a href="http://pivotal.io/platform-as-a-service/pivotal-cloud-foundry"&gt;self-service agile infrastructure&lt;/a&gt;, &lt;a href="http://www.mattstine.com/2014/06/30/microservices-are-solid"&gt;API-based collaboration&lt;/a&gt;, and &lt;a href="http://www.infoq.com/articles/russ-miles-antifragility-microservices"&gt;antifragility&lt;/a&gt;. All of these elements enable us to simultaneously move quickly and safely as we continuously deliver business value to our customers.&lt;/p&gt;&lt;p&gt;The Spring team&amp;rsquo;s goal has always been to &lt;a href="https://twitter.com/mstine/status/559141270715924481"&gt;win the war on Java complexity&lt;/a&gt;, and now we&amp;rsquo;re teaming up with our colleagues on the &lt;a href="http://cloudfoundry.org"&gt;Cloud Foundry&lt;/a&gt; team to eliminate complexity from the development and operation of cloud-native applications. &lt;/p&gt;&lt;p&gt;We began this effort with &lt;a href="http://cloud.spring.io"&gt;Spring Cloud&lt;/a&gt;, an umbrella project that brings to the composition of cloud-native application architectures the same simplicity and productivity you&amp;rsquo;ve come to depend on in &lt;a href="http://projects.spring.io/spring-boot"&gt;Spring Boot&lt;/a&gt;. Coordination of distributed systems can be accomplished by applying many well-characterized boiler plate patterns. Using Spring Cloud, developers can quickly stand up services and applications that implement those patterns. Many of these patterns are provided via wrapping the battle-tested components found at &lt;a href="http://netflix.github.io/"&gt;NetflixOSS&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;You can develop and run Spring Cloud applications anywhere, including your laptop, bare-metal data center infrastructure, or cloud infrastructure like AWS or Google Cloud. But for maximum effectiveness, cloud-native applications need a cloud-native application platform. We believe that Cloud Foundry is the platform that, combined with Spring Cloud, provides the optimal necessary sub-structure for building and operating cloud-native applications.&lt;/p&gt;&lt;p&gt;Historically it&amp;rsquo;s been challenging to run Cloud Foundry on your laptop. That&amp;rsquo;s why we&amp;rsquo;re excited to tell you about &lt;a href="http://lattice.cf"&gt;Lattice&lt;/a&gt;. Lattice is a cloud-native application platform that enables you to run your applications in containers using solutions like &lt;a href="http://docker.com"&gt;Docker&lt;/a&gt;. Lattice includes features like:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Cluster scheduling&lt;/li&gt;
+  &lt;li&gt;HTTP load balancing&lt;/li&gt;
+  &lt;li&gt;Log aggregation&lt;/li&gt;
+  &lt;li&gt;Health management&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Lattice does this by packaging a subset of the components found in the Cloud Foundry elastic runtime. The result is an open, single-tenant environment suitable for rapid application development. Applications developed using Lattice should migrate unchanged to full Cloud Foundry deployments.&lt;/p&gt;&lt;p&gt;To help you get started with Lattice, we&amp;rsquo;ve published two getting started guides:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/guides/gs/spring-boot-docker"&gt;Spring Boot with Docker&lt;/a&gt;: Lattice currently supports running applications packaged as Docker images, so this guide helps you to build Docker images from your Spring Boot application using either Maven or Gradle.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/guides/gs/spring-cloud-and-lattice/"&gt;Spring Cloud + Lattice&lt;/a&gt;: this guide walks you through setting up Lattice and then deploying a Spring Boot application to it. Applications you package following the Docker guide should run on Lattice with ease.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The second guide highlights our first direct integration between Spring Cloud and Lattice, &lt;a href="https://github.com/spring-cloud/spring-cloud-lattice"&gt;spring-cloud-lattice&lt;/a&gt;, which is an implementation of Spring Cloud&amp;rsquo;s &lt;code&gt;DiscoveryClient&lt;/code&gt; backed by Lattice&amp;rsquo;s &lt;a href="http://lattice.cf/docs/lattice-api"&gt;API&lt;/a&gt;. This implementation allows us to perform &lt;a href="http://microservices.io/patterns/client-side-discovery.html"&gt;service discovery&lt;/a&gt; directly from Lattice without any additional dependencies. If you&amp;rsquo;ve already started leveraging Netflix Ribbon or Zuul via Spring Cloud, you&amp;rsquo;ll now be able to use both without deploying a Eureka server! Spring Cloud Lattice is currently an alpha-quality preview release.&lt;/p&gt;&lt;p&gt;This integration is only the first of many you&amp;rsquo;ll be seeing from the ever deepening collaboration between the Cloud Foundry and Spring teams. For example, the Spring XD team has been hard at work building a service-provider interface that allows XD to treat Lattice as a runtime layer, deploying stream modules as containers. &lt;/p&gt;&lt;p&gt;Our goal is to provide you, the enterprise Java developer, with the ideal local development and cloud operation environments that you need to harness the power of cloud-native applications. We look forward to showing you even more great things at &lt;a href="http://springone2gx.com"&gt;SpringOne 2GX&lt;/a&gt; in September, 2015. Stay tuned!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring for Apache Hadoop 2.1.2 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/04/03/spring-for-apache-hadoop-2-1-2-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Thomas Risberg</name>
+    </author>
+    <id>tag:spring.io,2015-04-03:2065</id>
+    <updated>2015-04-03T18:50:00Z</updated>
+    <content type="html">&lt;p&gt;We are pleased to announce that Spring for Apache Hadoop 2.1.2 has just been released and is now available from Maven Central and the Spring Repository. This release includes version upgrades of some Spring projects as well as the most recent versions for all supported distros. &lt;/p&gt;&lt;p&gt;We have added support for the newly released Pivotal HD 3.0. In addition to that new release, we have updated Cloudera CDH to version 5.3.2 and Hortonworks HDP 2.2 to use version 2.2.4.0. More details can be found in the &lt;a href="http://docs.spring.io/spring-hadoop/docs/2.1.2.RELEASE/changelog.txt"&gt;changelog&lt;/a&gt; or in the &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10801&amp;version=14952"&gt;JIRA release notes&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Here is a complete list of the latest version designation to use for the various distro &amp;ldquo;flavors&amp;rdquo; published. The Apache Hadoop releases are available in Maven Central and all other releases are available in the &lt;a href="http://repo.spring.io/libs-release/"&gt;Spring Repository&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Apache Hadoop 2.4.1 (2.1.2.RELEASE-hadoop24)&lt;/li&gt;
+  &lt;li&gt;Apache Hadoop 2.5.2 (2.1.2.RELEASE-hadoop25)&lt;/li&gt;
+  &lt;li&gt;Apache Hadoop 2.6.0 (2.1.2.RELEASE)&lt;/li&gt;
+  &lt;li&gt;Pivotal HD 2.1 (2.1.2.RELEASE-phd21)&lt;/li&gt;
+  &lt;li&gt;Pivotal HD 3.0 (2.1.2.RELEASE-phd30)&lt;/li&gt;
+  &lt;li&gt;Cloudera CDH5 5.3.0 (2.1.2.RELEASE-cdh5)&lt;/li&gt;
+  &lt;li&gt;Hortonworks HDP 2.2 (2.1.2.RELEASE-hdp22)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The project page is at - &lt;a href="http://projects.spring.io/spring-hadoop/"&gt;http://projects.spring.io/spring-hadoop/&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>How Spring achieves compatibility with Java 6, 7 and 8</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/04/03/how-spring-achieves-compatibility-with-java-6-7-and-8" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Stéphane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2015-04-03:2063</id>
+    <updated>2015-04-03T13:58:52Z</updated>
+    <content type="html">&lt;p&gt;As of Spring Framework 4.0, Java 8 is supported as a first-class citizen and we&amp;rsquo;ve seen some confusion in the Spring community since then. How do we manage to support Java 8 and remain compatible with Java 6 and Java 7 after all? This blog post provides some insight into how we&amp;rsquo;re handling this within the framework codebase.&lt;/p&gt;&lt;h2&gt;&lt;a href="#java-8-language-features-vs-java-8-apis" class="anchor" name="java-8-language-features-vs-java-8-apis"&gt;&lt;/a&gt;Java 8 language features vs. Java 8 APIs&lt;/h2&gt;&lt;p&gt;First, a distinction must be made between using new language features and new APIs in a given Java generation such as Java 8. If a class uses a Java 8 language feature such as a lambda expression, it has to be compiled with &lt;code&gt;-source 1.8 -target 1.8&lt;/code&gt; and therefore the whole compilation unit will only work on Java 8+. However, if a particular class in a library optionally uses a new Java 8 interface such as &lt;code&gt;java.util.stream.Stream&lt;/code&gt;, the library can still run on a previous Java generation as long as it is being compiled with e.g. &lt;code&gt;-source 1.6 -target 1.6&lt;/code&gt; - and as long as the use of that particular &lt;code&gt;Stream&lt;/code&gt;-based class is guarded to only kick in when actually running on Java 8+. As you may have guessed, we&amp;rsquo;re making extensive use of such arrangements within the Spring Framework codebase!&lt;/p&gt;&lt;p&gt;We&amp;rsquo;ve advertised how Spring Framework 4.0 naturally fits with Java 8 lambdas. For instance, retrieving the catalog of a given JDBC connection with a &lt;a href="https://github.com/spring-projects/spring-framework/blob/8472a2b2/spring-jdbc/src/main/java/org/springframework/jdbc/core/ConnectionCallback.java"&gt;&lt;code&gt;ConnectionCallback&lt;/code&gt;&lt;/a&gt; can be written as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;jdbcTemplate.execute(connection -&amp;gt; connection.getCatalog())
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;In fact, Spring Framework had now-so-called functional interfaces for years and we did not have to change any of those APIs to be compliant with Java 8&amp;rsquo;s compiler rules for functional interfaces. Lambda-based code such as the above, calling into Spring APIs, can be used in any Spring application - which then requires a Java 8 runtime, obviously. However, if you choose to write such code with a traditional inner class approach, against the very same Spring APIs in the very same Spring version, you can do so as well with a Java 6+ runtime:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;jdbcTemplate.execute(new ConnectionCallback&amp;lt;String&amp;gt;() {&#xD;
+    @Override&#xD;
+    public String doInConnection(Connection con) throws SQLException {&#xD;
+        return con.getCatalog();&#xD;
+    }&#xD;
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The bottom line is that the choice is yours: We carefully designed Spring Framework 4.x to be naturally compatible with Java 6, 7 and 8, with the same Spring jars and no special setup steps. We don&amp;rsquo;t use any Java 8 language features in our own code, so we can compile our framework codebase with &lt;code&gt;-source 1.6 -target 1.6&lt;/code&gt;, and we autodetect and automatically activate many Java 8 API features (if available at runtime) within that codebase arrangement. Your application code may then choose to use Java 6, 7 or 8 language level itself, interacting with our framework arrangement and naturally getting the most out of the JDK that you happen to be using - without any extra setup, just through combining Spring with your JDK at runtime.&lt;/p&gt;&lt;h2&gt;&lt;a href="#which-java-8-api-features-do-we-support" class="anchor" name="which-java-8-api-features-do-we-support"&gt;&lt;/a&gt;Which Java 8 API features do we support?&lt;/h2&gt;&lt;p&gt;We have dedicated support for a number of Java 8 specific API features such as &lt;code&gt;java.util.Optional&lt;/code&gt;, &lt;code&gt;java.util.stream.Stream&lt;/code&gt;, &lt;code&gt;java.time&lt;/code&gt; (JSR-310), repeatable annotations, method/constructor parameter names, and even the &lt;code&gt;java.util.Base64&lt;/code&gt; utility class. Those features get reflectively detected when you choose to use them in your own application classes, with the Spring Framework conditionally activating its support for those Java 8 features, e.g. registering default converters for &lt;code&gt;Optional&lt;/code&gt; and &lt;code&gt;Stream&lt;/code&gt; when Java 8 is present at runtime.&lt;/p&gt;&lt;p&gt;Let&amp;rsquo;s have a look at an example. In the upcoming Spring Framework 4.2, if you define a value of type &lt;code&gt;Collection&lt;/code&gt; or array, you can inject it as a &lt;code&gt;Stream&lt;/code&gt; and we will convert that for you. You can find the full code of &lt;a href="https://github.com/spring-projects/spring-framework/blob/228d9db4/spring-core/src/main/java/org/springframework/core/convert/support/StreamConverter.java"&gt;&lt;code&gt;StreamConverter&lt;/code&gt; on github&lt;/a&gt; but here&amp;rsquo;s an excerpt:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;import java.util.*;&#xD;
+import java.util.stream.Collectors;&#xD;
+import java.util.stream.Stream;&#xD;
+&#xD;
+import org.springframework.core.convert.*;&#xD;
+import org.springframework.lang.UsesJava8;&#xD;
+&#xD;
+@UsesJava8&#xD;
+public class StreamConverter implements ConditionalGenericConverter {&#xD;
+    ....&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;StreamConverter&lt;/code&gt; is an isolated class using Java 8 specific APIs, so what we need to do now is to conditionally add &lt;code&gt;StreamConverter&lt;/code&gt; to &lt;a href="https://github.com/spring-projects/spring-framework/blob/018adb04/spring-core/src/main/java/org/springframework/core/convert/support/DefaultConversionService.java"&gt;&lt;code&gt;DefaultConverterService&lt;/code&gt;&lt;/a&gt; if Java 8 is present at runtime.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;public class DefaultConversionService extends GenericConversionService {&#xD;
+&#xD;
+    /** Java 8&amp;#39;s java.util.stream.Stream class available? */&#xD;
+    private static final boolean streamAvailable = ClassUtils.isPresent(&#xD;
+            &amp;quot;java.util.stream.Stream&amp;quot;, &#xD;
+            DefaultConversionService.class.getClassLoader());&#xD;
+&#xD;
+    private static void addCollectionConverters(&#xD;
+            ConverterRegistry converterRegistry) {&#xD;
+        ...&#xD;
+&#xD;
+        if (streamAvailable) {&#xD;
+            converterRegistry.addConverter(&#xD;
+                    new StreamConverter(conversionService));&#xD;
+        }&#xD;
+    }&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We conditionally check if the API is present at runtime and make a decision based on that, with you as a user simply experiencing fully Java 8 adapted setup by default. This is somewhat similar to the &lt;a href="https://github.com/spring-projects/spring-boot/tree/master/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/condition"&gt;conditions infrastructure&lt;/a&gt; in Spring Boot except it is more low-level and internal. &lt;/p&gt;&lt;h2&gt;&lt;a href="#checking-java-6-compatibility" class="anchor" name="checking-java-6-compatibility"&gt;&lt;/a&gt;Checking Java 6 compatibility&lt;/h2&gt;&lt;p&gt;Since we are using Java 8 specific APIs in several isolated places, we need JDK 8 to compile the framework codebase overall. As a result, there is a risk that we accidentally introduce Java 8 specific API calls in places where we need to remain Java 6 compatible.&lt;/p&gt;&lt;p&gt;Fortunately, our CI build plan is configured to execute &lt;a href="http://mojo.codehaus.org/animal-sniffer/"&gt;Animal Sniffer&lt;/a&gt; with each build. This checks our code against a given Java API &lt;em&gt;signature&lt;/em&gt; (in our case Java 6 update 18) and fails the build if some incorrect usage happens to be found. So what about legitimate use cases then where we do need to call Java 7 or 8 APIs? You can configure the sniffer to exclude a list of classes or, better yet, provide a set of annotations that &lt;em&gt;flag&lt;/em&gt; such exceptional cases. &lt;/p&gt;&lt;p&gt;That&amp;rsquo;s exactly what the &lt;a href="https://github.com/spring-projects/spring-framework/blob/f7b46539/spring-core/src/main/java/org/springframework/lang/UsesJava8.java"&gt;&lt;code&gt;@UsesJava8&lt;/code&gt;&lt;/a&gt; annotation on &lt;code&gt;StreamConverter&lt;/code&gt; (see above) indicates: It demarcates the whole class as an exception to the Java 6 API compatibility rule. You can flag an inner class or even a method in a similar manner. By looking at our usage of that annotation, we know all the places where Java 7/8 specific APIs are used in our codebase.&lt;/p&gt;&lt;p&gt;The Animal Sniffer configuration is pretty straightforward: check out &lt;a href="https://github.com/spring-projects/spring-framework/blob/f926f6cb3e95affdd87ed5c06ac0450d0ada2aec/build.gradle#L143"&gt;our build&lt;/a&gt; or &lt;a href="http://mojo.codehaus.org/animal-sniffer/"&gt;the official documentation&lt;/a&gt; for more details. &lt;/p&gt;&lt;h2&gt;&lt;a href="#wrapping-up" class="anchor" name="wrapping-up"&gt;&lt;/a&gt;Wrapping Up&lt;/h2&gt;&lt;p&gt;We chose not to use any Java 7 or Java 8 language features in our own codebase in order to give you the flexibility to write your Spring 4 applications for Java 6, 7 or 8. At the same time, we allow you to experience a very natural approach if you decide to use Java 8, with the Spring Framework essentially appearing as Java 8 based to you in such a scenario. &lt;/p&gt;&lt;p&gt;Fortunately, Java 8&amp;rsquo;s functional interface convention isn&amp;rsquo;t new for us. Many existing Spring APIs can be seamlessly used with Java 8 lambdas since they are naturally following the same convention. New Java 8 APIs such as &lt;code&gt;java.time&lt;/code&gt; (JSR-310), &lt;code&gt;Optional&lt;/code&gt; and &lt;code&gt;Stream&lt;/code&gt; are automatically supported by the framework if you choose to use them in your own code. &lt;/p&gt;&lt;p&gt;On a forward-looking note, as of 4.2, our codebase is even being checked with early JDK 9 builds already! This will lead to a unique situation in the framework once JDK 9 becomes generally available next year: supporting &lt;em&gt;four&lt;/em&gt; Java generations in the same release line - your choice of JDK 6, 7, 8 or 9 in combination with the same Spring Framework generation!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Check out Dave Syer's "Spring Security and AngularJS" blog series converted to tutorial</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/04/02/check-out-dave-syer-s-spring-security-and-angularjs-blog-series-converted-to-tutorial" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Greg Turnquist</name>
+    </author>
+    <id>tag:spring.io,2015-04-02:2060</id>
+    <updated>2015-04-02T20:43:00Z</updated>
+    <content type="html">&lt;p&gt;Greetings Spring community,&lt;/p&gt;&lt;p&gt;&lt;a href="https://spring.io/team/dsyer"&gt;Dave Syer&amp;rsquo;s&lt;/a&gt; six-part blog series on &lt;strong&gt;Spring Security and AngularJS&lt;/strong&gt; has been a smash hit! It has echoed across the twittersphere, torn up DZone, and drawn people far and wide.&lt;/p&gt;&lt;p&gt;Did you miss any of it? Perhaps you&amp;rsquo;ve heard of it and found it too difficult to track down the first post. No more.&lt;/p&gt;&lt;p&gt;Please navigate to our newly minted &lt;a href="https://spring.io/guides/tutorials/spring-security-and-angular-js"&gt;Spring Security and AngularJS tutorial&lt;/a&gt; and enjoy all that solid gold. We migrated 100% of it into that tutorial, made slight edits to the links, and polished it up just for you.&lt;/p&gt;&lt;p&gt;Share and enjoy!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Security Kerberos 1.0.0.RC2 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/04/02/spring-security-kerberos-1-0-0-rc2-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Rob Winch</name>
+    </author>
+    <id>tag:spring.io,2015-04-02:2059</id>
+    <updated>2015-04-02T17:01:37Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the Spring Security Kerberos team, I&amp;rsquo;m pleased to announce the release of Spring Security Kerberos 1.0.0.RC2. This release brings a number of changes. The highlights can be found below:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Added support LdapContextSource. Special thanks to &lt;a href="https://github.com/nrodrigues"&gt;Nelson Rodrigues&lt;/a&gt; for this contribution!&lt;/li&gt;
+  &lt;li&gt;Repackaging for better management of dependencies&lt;/li&gt;
+  &lt;li&gt;Specific implementations are moved to their own packages to signal additional optional dependencies&lt;/li&gt;
+  &lt;li&gt;spring-security-kerberos-web now contains all of the web related dependencies (i.e. servlet dependencies)&lt;/li&gt;
+  &lt;li&gt;Bug fixes&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;We’d love to hear back what people think by participating in a project or simply creating issues or feature requests at &lt;a href="https://github.com/spring-projects/spring-security-kerberos"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Ongoing support for Java 7 (and even Java 6)</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/04/01/ongoing-support-for-java-7-and-even-java-6" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Juergen Hoeller</name>
+    </author>
+    <id>tag:spring.io,2015-04-01:2058</id>
+    <updated>2015-04-01T15:01:53Z</updated>
+    <content type="html">&lt;p&gt;You might have heard about the end of public updates for Java 7, coming up in just a few days with the release of Java 7 update 80. See the following Oracle pages for a reference:&lt;/p&gt;&lt;p&gt;&lt;a href="https://blogs.oracle.com/java-platform-group/entry/future_updates_of_java_7"&gt;https://blogs.oracle.com/java-platform-group/entry/future_updates_of_java_7&lt;/a&gt;&lt;br/&gt;&lt;a href="http://www.oracle.com/technetwork/java/eol-135779.html"&gt;http://www.oracle.com/technetwork/java/eol-135779.html&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Let&amp;rsquo;s clarify what it really is: &lt;b&gt;the end of public updates&lt;/b&gt;, and by no means an end of life (EOL). With the second link above, scroll down to the &amp;ldquo;Oracle Java SE Support Roadmap&amp;rdquo; section and you&amp;rsquo;ll find the actual &lt;b&gt;EOL dates: Dec 2018 for Java 6 and Jul 2022 for Java 7.&lt;/b&gt; Yes, that&amp;rsquo;s another 3.5 years for Java 6 from now, and even another 7 years (!) for Java 7.&lt;/p&gt;&lt;p&gt;IBM&amp;rsquo;s EOL timeframes are similar, although an even longer Java 6 support timeline is to be expected there. &lt;b&gt;It&amp;rsquo;s generally worth noting that any end-of-updates statements from Oracle are completely irrelevant for IBM users:&lt;/b&gt; The IBM JDK is an independent product that just happens to be based on the same open source project (OpenJDK) in recent years.&lt;/p&gt;&lt;p&gt;So please, if you see any statements about Java 7 getting EOL&amp;rsquo;ed these days, take them with a large grain of salt. &lt;b&gt;The end of public updates is just the point of time when Oracle starts to charge for maintenance releases, that&amp;rsquo;s all.&lt;/b&gt; Java 7 remains with us for another 7 years.&lt;/p&gt;&lt;p&gt;In case you&amp;rsquo;re wondering about the Spring perspective: We designed &lt;a href="http://projects.spring.io/spring-framework/"&gt;Spring Framework 4.x&lt;/a&gt; to support Java 6, 7 and 8 in the same framework generation. &lt;b&gt;That&amp;rsquo;s a unified programming model to cover three generations of Java, allowing you to upgrade at your own pace while at the same time getting the maximum out of the JDK that you&amp;rsquo;re currently using!&lt;/b&gt;&lt;/p&gt;&lt;p&gt;The clue is that Spring Framework 4.x feels like a Java 8 based framework, out of the box, when using it on JDK 8. With the same framework version and framework jars, you&amp;rsquo;ll also get a fine experience on JDK 6 and 7: &lt;b&gt;You&amp;rsquo;ll just be restricted by the Java language and API level but will otherwise find the same 2015-era framework features at your fingertips.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Stay tuned for a follow-up blog post on how we go about supporting multiple JDK generations in our codebase&amp;hellip;&lt;/p&gt;&lt;p&gt;Juergen&lt;/p&gt;&lt;p&gt;P.S.: Note that the &lt;a href="http://platform.spring.io/platform/"&gt;Spring IO platform&lt;/a&gt;, including its wide arrangement of dependencies, is only supported on Java 7 and 8. At the same time, many of our Spring portfolio projects are still compatible with Java 6&amp;hellip; and JDK 6 based application servers such as WebSphere 7.0 / 8.0.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring IO Platform 1.1.2 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/04/01/spring-io-platform-1-1-2-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2015-03-31:2054</id>
+    <updated>2015-04-01T08:53:14Z</updated>
+    <content type="html">&lt;p&gt;We are pleased to announce that &lt;a href="http://platform.spring.io/platform"&gt;Spring IO Platform&lt;/a&gt; 1.1.2.RELEASE is now available from both &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3Aio.spring.platform"&gt;Maven Central&lt;/a&gt;. &lt;/p&gt;&lt;p&gt;This maintenance release upgrades the versions of a number of the projects in the Platform to pick up their latest maintenance releases:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring AMQP 1.4.3&lt;/li&gt;
+  &lt;li&gt;Spring Batch 3.0.3&lt;/li&gt;
+  &lt;li&gt;Spring Boot 1.2.3&lt;/li&gt;
+  &lt;li&gt;Spring Cloud Connectors 1.1.1&lt;/li&gt;
+  &lt;li&gt;Spring Data Evans SR2&lt;/li&gt;
+  &lt;li&gt;Spring Framework 4.1.6&lt;/li&gt;
+  &lt;li&gt;Spring Security 3.2.7&lt;/li&gt;
+  &lt;li&gt;Spring Web Services 2.2.1&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The versions of many third-party dependencies have also been updated.&lt;/p&gt;&lt;p&gt;&lt;a href="http://platform.spring.io/platform"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/platform/docs/1.1.2.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring IO Platform 1.0.5 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/04/01/spring-io-platform-1-0-5-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2015-03-31:2055</id>
+    <updated>2015-04-01T08:52:22Z</updated>
+    <content type="html">&lt;p&gt;We are pleased to announce that &lt;a href="http://platform.spring.io/platform"&gt;Spring IO Platform&lt;/a&gt; 1.0.5.RELEASE is now available from both &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3Aio.spring.platform"&gt;Maven Central&lt;/a&gt;. This release is intended for users who remain on the 1.0.x line; where possible, upgrading to 1.1.x is recommended.&lt;/p&gt;&lt;p&gt;This maintenance release upgrades the versions of a number of the projects in the Platform to pick up their latest maintenance releases:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring AMQP 1.3.7&lt;/li&gt;
+  &lt;li&gt;Spring Batch 3.0.3&lt;/li&gt;
+  &lt;li&gt;Spring Boot 1.1.12&lt;/li&gt;
+  &lt;li&gt;Spring Data Dijkstra SR5&lt;/li&gt;
+  &lt;li&gt;Spring Framework 4.0.9&lt;/li&gt;
+  &lt;li&gt;Spring Integration 4.0.6&lt;/li&gt;
+  &lt;li&gt;Spring Security 3.2.7&lt;/li&gt;
+  &lt;li&gt;Spring Web Services 2.2.1&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;The versions of many third-party dependencies have also been updated.&lt;/p&gt;&lt;p&gt;&lt;a href="http://platform.spring.io/platform"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/platform/docs/1.0.5.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot 1.1.12 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/03/31/spring-boot-1-1-12-released" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Phil Webb</name>
+    </author>
+    <id>tag:spring.io,2015-03-31:2048</id>
+    <updated>2015-03-31T21:26:26Z</updated>
+    <content type="html">&lt;p&gt;Spring Boot 1.1.12 has been released and is available now from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.springframework.boot%22"&gt;Maven Central&lt;/a&gt;. &lt;/p&gt;&lt;p&gt;This maintenance release includes a &lt;a href="https://github.com/spring-projects/spring-boot/issues?q=milestone%3A1.1.12"&gt;small number of fixes&lt;/a&gt; and is recommended for anyone still on the 1.1.x line. &lt;/p&gt;&lt;p&gt;This the last planned release from the 1.1.x branch so please consider &lt;a href="http://spring.io/blog/2015/03/31/spring-boot-1-2-3-released"&gt;upgrading to 1.2.3&lt;/a&gt; if you haven&amp;rsquo;t already.&lt;/p&gt;&lt;p&gt;&lt;a href="http://projects.spring.io/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/1.1.12.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Boot 1.2.3 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/03/31/spring-boot-1-2-3-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Phil Webb</name>
+    </author>
+    <id>tag:spring.io,2015-03-31:2047</id>
+    <updated>2015-03-31T21:25:27Z</updated>
+    <content type="html">&lt;p&gt;Spring Boot 1.2.3 has been released and is available now from &lt;a href="http://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and &lt;a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.springframework.boot%22"&gt;Maven Central&lt;/a&gt;. &lt;/p&gt;&lt;p&gt;This maintenance release includes a &lt;a href="https://github.com/spring-projects/spring-boot/issues?q=milestone%3A1.2.3"&gt;small number of fixes&lt;/a&gt; and is a recommended upgrade for all users.&lt;/p&gt;&lt;p&gt;&lt;a href="http://projects.spring.io/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/1.2.3.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring - March 31, 2015</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/03/31/this-week-in-spring-march-31-2015" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2015-03-31:2051</id>
+    <updated>2015-03-31T18:23:00Z</updated>
+    <content type="html">&lt;p&gt;Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! As usual, we&amp;rsquo;ve got a lot to cover so let&amp;rsquo;s get to it!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring Security lead Rob Winch &lt;a href="http://spring.io/blog/2015/03/26/spring-security-4-0-0-released"&gt;just announced the amazing Spring Security 4.0 release&lt;/a&gt;! This one is packed with amazing features including websocket support, Spring Data integration, enhanced testing support, and much improved defaults&lt;/li&gt;
+  &lt;li&gt;The &lt;a href="https://github.com/cloudfoundry/java-buildpack#configuration-and-extension"&gt;Cloud Foundry Java buildpack&lt;/a&gt; now supports overriding inbuilt configuration through the use of well-named environment variables! This means you can tweak all manner of the default behavior without needing to fork the buildpack!&lt;/li&gt;
+  &lt;li&gt;Good news! &lt;a href="http://spring.io/blog/2015/03/26/spring-xd-1-1-1-released"&gt;Spring XD 1.1.1&lt;/a&gt; is released! It includes improved performance and offset management when using Kafka message bus, support for Spark&amp;rsquo;s streaming reliable receiver, Kryo serialization improvements, RabbitMQ auto-cleanup options and a Sqoop example.&lt;/li&gt;
+  &lt;li&gt;Graeme Rocher&amp;rsquo;s amazing Groovy Web App framework, &lt;a href="https://github.com/grails/grails-core/releases/tag/v3.0.0"&gt;Grails 3.0 has been released&lt;/a&gt; - now based on the Spring Boot!&lt;/li&gt;
+  &lt;li&gt;Greg Turnquist just &lt;a href="http://spring.io/blog/2015/03/26/spring-ws-2-2-1-is-released"&gt;announced Spring WS 2.2.1, with bugfixes, was just released&lt;/a&gt;. Get it while it&amp;rsquo;s hot!&lt;/li&gt;
+  &lt;li&gt;Oh yah, &lt;a href="http://spring.io/blog/2015/03/26/spring-security-3-2-7-released"&gt;Spring Security 3.2.7&lt;/a&gt; with bugfixes aplenty is also released but&amp;hellip; download 4 (see above)!&lt;/li&gt;
+  &lt;li&gt;speaking of allll the data, &lt;a href="http://spring.io/blog/2015/03/26/spring-integration-kafka-support-1-1-ga-is-available"&gt;Spring Integration Kafka 1.1&lt;/a&gt; was just released! This is also included in Spring XD 1.1.1, so check it out!&lt;/li&gt;
+  &lt;li&gt;Spring framework 4.1.6, with patches and bugfixes, was just released. &lt;a href="http://spring.io/blog/2015/03/25/spring-framework-4-1-6-released"&gt;It is a recommended update for Spring 4.x users&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;I&amp;rsquo;ll be doing &lt;a href="https://spring.io/blog/2015/03/17/webinar-smarter-service-to-service-invocations-with-spring-cloud"&gt;a webinar on smarter service-to-service invocations with Spring Cloud&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I&amp;rsquo;ll be appearing at the Virtual JUG (vJUG) again, this time &lt;a href="http://www.meetup.com/virtualJUG/events/221218834/"&gt;to talk about Spring Cloud-based microservices&lt;/a&gt;. Join us, worldwide!&lt;/li&gt;
+  &lt;li&gt;Marius Bogoevici and Mark Pollack are teaming up for a webinar on Tues April 28th about &lt;a href="https://spring.io/blog/2015/03/17/webinar-reactive-data-pipelines-with-spring-xd-and-kafka"&gt;Reactive data-pipelines with Spring XD and Kafka&lt;/a&gt;, a must for any big / fast data enthusiasts.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2015/03/31/webinar-replay-jhipster-for-spring-boot"&gt;The replay from Julien Dubois&amp;rsquo;s recent webinar&lt;/a&gt; on the Spring Boot-based app generator, JHipster - used to generate AngularJS web apps - is now available!&lt;/li&gt;
+  &lt;li&gt;Scott Deeg&amp;rsquo;s excellent &lt;a href="https://spring.io/blog/2015/03/31/webinar-replay-building-a-secure-polymer-app-with-spring-backend"&gt;Webinar Replay: Building a secure Polymer app with Spring backend&lt;/a&gt; is now available! This is a different frontend JavaScript take on Dr. Dave Syer&amp;rsquo;s uber popular &lt;a href="https://spring.io/blog/2015/01/12/spring-and-angular-js-a-secure-single-page-application"&gt;Spring and Angular JS: A Secure Single Page Application&lt;/a&gt; blog and webinar, that uses &lt;a href="http://cloud.spring.io/spring-cloud-netflix/"&gt;Spring Cloud Netflix/Zuul&lt;/a&gt; to have a secure JS app on the frontend, a lightweight API gateway with Spring Cloud, and a secure Spring backend.&lt;/li&gt;
+  &lt;li&gt;In celebration of the Grails 3.0 release - which is now based on Spring Boot - we&amp;rsquo;ll be publishing all G&amp;amp;G talks from SpringOne2GX 2014 for a while. This week&amp;rsquo;s replays are now up! Jeff Scott Brown talks about &lt;a href="https://spring.io/blog/2015/03/31/springone2gx-2014-replay-gorm-inside-and-out"&gt;GORM inside and out&lt;/a&gt; Dr. Paul King shows us &lt;a href="http://spring.io/blog/2015/03/31/springone2gx-2014-replay-groovy-ast-transformations"&gt;Groovy AST Transformations&lt;/a&gt;, and Ken Kousen shares &lt;a href="https://spring.io/blog/2015/03/31/springone2gx-2014-replay-advanced-groovy-tips-and-tricks"&gt;Advanced Groovy Tips and Tricks&lt;/a&gt; and &lt;a href="https://spring.io/blog/2015/03/31/springone2gx-2014-replay-distributed-platform-development-with-groovy"&gt;Distributed Platform Development with Groovy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check out Thomas Darimont&amp;rsquo;s amazing post, &lt;a href="http://spring.io/blog/2015/03/26/what-s-new-in-spring-data-fowler"&gt;&lt;em&gt;What&amp;rsquo;s New in Spring Data Fowler&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The Disid corporation just posted an &lt;a href="http://spring.io/blog/2015/03/30/looking-ahead-to-spring-roo-2-0"&gt;update looking ahead to Spring Roo 2.0&lt;/a&gt;. Speaking of..&lt;/li&gt;
+  &lt;li&gt;I, along with a great many other Spring team members, will be in Barcelona, Spain, for &lt;a href="http://www.springio.net/"&gt;the Spring I/O conference&lt;/a&gt;. Join us! (also, Sangria!)&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <title>Webinar Replay: JHipster for Spring Boot</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/03/31/webinar-replay-jhipster-for-spring-boot" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2015-03-31:2057</id>
+    <updated>2015-03-31T16:15:00Z</updated>
+    <content type="html">&lt;p&gt;Speaker: Julien Dubois&lt;/p&gt;
+&lt;p&gt; Slides:&lt;a href="http://www.slideshare.net/julien.dubois/jhipster-for-spring-boot-webinar"&gt;http://www.slideshare.net/julien.dubois/jhipster-for-spring-boot-webinar&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; JHipster focuses on generating a high quality application with a Java back-end using an extensive set of Spring technologies; Spring Boot, Spring Security, Spring Data, Spring MVC (providing a framework for websockets, REST and MVC), etc. an Angular.js front-end and a suite of pre-configured development tools like Yeoman, Maven, Gradle, Grunt, Gulp.js and Bower. JHipster creates a fully configured Spring Boot application with a set of pre-defined screens for user management, monitoring, and logging. The generated Spring Boot application is specifically tailored to make working with Angular.js a smoother experience. Join Julien for a quick-live coding session to build a simple application, and deploy it to Cloud Foundry.&lt;/p&gt;
+&lt;p&gt;Learn about about Spring Boot at &lt;a href="http://projects.spring.io/spring-security"&gt;http://projects.spring.io/spring-boot&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;iframe width="420" height="315" src="https://www.youtube.com/embed/R3jm2qmqctI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt; &lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Webinar Replay: Building a secure Polymer app with Spring backend</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/03/31/webinar-replay-building-a-secure-polymer-app-with-spring-backend" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2015-03-31:2056</id>
+    <updated>2015-03-31T16:09:00Z</updated>
+    <content type="html">&lt;p&gt;Speaker: Scott Deeg &lt;/p&gt;
+&lt;p&gt;Slides: http://www.slideshare.net/sdeeg/spring-polymer-webinar-46514389&lt;/p&gt;
+&lt;p&gt;Polymer is the latest web framework out of Google. Designed completely around the emerging Web Components standards, it has the lofty goal of making it easy to build apps based on these low level primitives. Along with Polymer comes a new set of Elements (buttons, dialog boxes and such) based on the ideas of &amp;quot;Material Design&amp;quot;. These technologies together make it easy to build responsive, componentized &amp;quot;Single Page&amp;quot; web applications that work for browsers on PCs or mobile devices. But what about the backend, and how do we make these apps secure? In this talk Scott Deeg will take you through an introduction to Polmyer and its related technologies, and then through the build out of a full blown cloud based app with a secure, RESTful backend based on Spring REST, Spring Cloud, and Spring Security and using Thymeleaf for backend rendering jobs. At the end he will show the principles applied in a tool he's currently building. The talk will be mainly code walk through and demo, and assumes familiarity with Java/Spring and JavaScript.&lt;/p&gt;
+&lt;p&gt;Learn about about Spring Security at &lt;a href="http://projects.spring.io/spring-security"&gt;http://projects.spring.io/spring-security&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Learn about about Spring Cloud at &lt;a href="http://projects.spring.io/spring-cloud"&gt;http://projects.spring.io/spring-cloud&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt; &lt;iframe width="420" height="315" src="https://www.youtube.com/embed/yfC8OIQr75c" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt; &lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2014 Replay: GORM inside and out</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/03/31/springone2gx-2014-replay-gorm-inside-and-out" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2015-03-31:2053</id>
+    <updated>2015-03-31T11:33:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2014. &lt;/p&gt;
+&lt;p&gt;Speaker: Jeff Scott Brown &lt;/p&gt;
+&lt;p&gt;More Groovy Track &lt;/p&gt;
+&lt;p&gt;Slides: &lt;a href="http://www.slideshare.net/SpringCentral/gorm-inside-andout"&gt;http://www.slideshare.net/SpringCentral/gorm-inside-andout&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;GORM is a super powerful ORM tool that makes ORM simple by leveraging the flexibility and expressiveness of a dynamic language like Groovy. With GORM developers get access to all of the power and flexibility of an ORM tool like Hibernate without any of the complexity.&lt;/p&gt;
+&lt;p&gt;&#xD;
+  &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ExIfX1MFraU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&#xD;
+&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2014 Replay: Groovy AST Transformations</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/03/31/springone2gx-2014-replay-groovy-ast-transformations" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2015-03-31:2052</id>
+    <updated>2015-03-31T11:07:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2014. &lt;/p&gt;
+&lt;p&gt;Speaker: Paul King &lt;/p&gt;
+&lt;p&gt;More Groovy Track &lt;/p&gt;
+&lt;p&gt;Slides: &lt;a href="http://www.slideshare.net/SpringCentral/groovy-asttransforms-paulkingsep2014b"&gt;http://www.slideshare.net/SpringCentral/groovy-asttransforms-paulkingsep2014b &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In this talk you'll learn about some of Groovy's AST transformations.&lt;/p&gt;
+&lt;p&gt;&#xD;
+  &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/hLBahy6lPWI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&#xD;
+&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2014 Replay: Advanced Groovy Tips and Tricks</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/03/31/springone2gx-2014-replay-advanced-groovy-tips-and-tricks" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2015-03-31:2050</id>
+    <updated>2015-03-31T11:02:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2014. &lt;/p&gt;
+&lt;p&gt;Speaker: Kenneth Kousen &lt;/p&gt;
+&lt;p&gt;Core Groovy Track&lt;/p&gt;
+&lt;p&gt;Slides: &lt;a href="http://www.slideshare.net/SpringCentral/advanced-groovy-tips-and-tricks"&gt;http://www.slideshare.net/SpringCentral/advanced-groovy-tips-and-tricks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Groovy has a very easy learning curve for Java developers, so many people become Groovy users without realizing all it can do. This presentation will examine features of Groovy that can make your life easier once you're past the initial adoption stage. Prerequisite: Some Groovy knowledge&lt;/p&gt;
+&lt;p&gt;&#xD;
+  &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/xzc-LoJ0mt0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&#xD;
+&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2014 Replay: Distributed Platform Development with Groovy</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/03/31/springone2gx-2014-replay-distributed-platform-development-with-groovy" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2015-03-31:2049</id>
+    <updated>2015-03-31T10:45:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2014.&lt;/p&gt;
+&lt;p&gt; Speaker: Dan Woods &lt;/p&gt;
+&lt;p&gt;Core Groovy Track &lt;/p&gt;
+&lt;p&gt;Slides: &lt;a href="http://www.slideshare.net/SpringCentral/4pieter-springone2gx2014distributedplatformdev"&gt;http://www.slideshare.net/SpringCentral/4pieter-springone2gx2014distributedplatformdev&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Building an Enterprise Application Stack means the necessity to have a service tier that can scale to the demands of business. This talk will discuss the approach to developing a scalable enterprise architecture, and will demonstrate implementations based on the variety of technologies available from the Groovy ecosystem, including Grails, Spring, Spring Boot, and Spring Integration.&lt;/p&gt;
+&lt;p&gt;&#xD;
+  &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5IOCM_76wJ8" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&#xD;
+&lt;/p&gt;</content>
+  </entry>
+</feed>
+

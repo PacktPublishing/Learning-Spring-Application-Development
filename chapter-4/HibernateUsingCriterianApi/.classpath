@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/commons-cli-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/h2-1.3.156.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/hibernate-commons-annotations-3.2.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/hibernate-core-3.6.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/hibernate-entitymanager-3.6.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/postgresql-9.3-1102.jdbc3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/spring-aop-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/spring-beans-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/spring-context-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/spring-context-support-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/spring-core-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/spring-expression-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/spring-jdbc-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/spring-orm-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/UpdatedSourceCode/chapter-4/Jar/spring-tx-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

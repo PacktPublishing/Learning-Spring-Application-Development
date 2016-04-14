@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Apr 09 23:50:56 IST 2015
+org.eclipse.jst.j2ee.server\:ehrPayrollWithSecurity=E\:\\Spring Framework Book\\Final Draft\\sts-bundle\\pivotal-tc-server-developer-3.0.2.SR2\\base-instance\\wtpwebapps\\ehrPayrollWithSecurity
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\SONY\\.m2\\repository\\org\\springframework\\spring-web\\3.2.8.RELEASE\\spring-web-3.2.8.RELEASE.jar=E\:\\Spring Framework Book\\Final Draft\\sts-bundle\\pivotal-tc-server-developer-3.0.2.SR2\\base-instance\\wtpwebapps\\ehrPayrollWithSecurity\\WEB-INF\\lib\\spring-web-3.2.8.RELEASE.jar

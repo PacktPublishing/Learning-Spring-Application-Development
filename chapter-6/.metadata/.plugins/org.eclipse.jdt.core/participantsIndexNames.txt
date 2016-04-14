@@ -1,0 +1,9 @@
+INDEX VERSION 1.127
+E:\Spring Framework Book\final-release\Code\Ravi\chapter-6\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1611813606.index
+\ehrPayrollWithSecurity\src\main\java
+E:\Spring Framework Book\final-release\Code\Ravi\chapter-6\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1145990333.index
+\SpringSecurityExample\src\main\java
+E:\Spring Framework Book\final-release\Code\Ravi\chapter-6\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3755290682.index
+\ehrPayrollWithSecurity\src\main\java
+E:\Spring Framework Book\final-release\Code\Ravi\chapter-6\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1162725901.index
+\SpringSecurityExample\src\main\java

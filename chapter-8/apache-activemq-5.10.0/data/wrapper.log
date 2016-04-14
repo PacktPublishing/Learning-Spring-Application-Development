@@ -1,0 +1,35 @@
+STATUS | wrapper  | 2015/04/09 17:55:25 | --> Wrapper Started as Console
+STATUS | wrapper  | 2015/04/09 17:55:25 | Launching a JVM...
+INFO   | jvm 1    | 2015/04/09 17:55:26 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/04/09 17:55:26 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/04/09 17:55:26 | 
+INFO   | jvm 1    | 2015/04/09 17:55:26 | Java Runtime: Sun Microsystems Inc. 1.6.0_45 C:\Program Files\Java\jre6
+INFO   | jvm 1    | 2015/04/09 17:55:26 |   Heap sizes: current=123840k  free=117375k  max=932096k
+INFO   | jvm 1    | 2015/04/09 17:55:26 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=Db1VBfjjxey8O4hw -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=10720 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2015/04/09 17:55:26 | Extensions classpath:
+INFO   | jvm 1    | 2015/04/09 17:55:26 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2015/04/09 17:55:26 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2015/04/09 17:55:26 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2015/04/09 17:55:26 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2015/04/09 17:55:26 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2015/04/09 17:55:26 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2015/04/09 17:55:26 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@39e4853f: startup date [Thu Apr 09 17:55:26 IST 2015]; root of context hierarchy
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | PListStore:[C:\Users\rsoni\Desktop\ravi-book\Sashank Desai\UpdatedSourceCode\chapter-8\apache-activemq-5.10.0\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\rsoni\Desktop\ravi-book\Sashank Desai\UpdatedSourceCode\chapter-8\apache-activemq-5.10.0\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | Apache ActiveMQ 5.10.0 (localhost, ID:HCLWRAVISO01-58118-1428582327237-0:1) is starting
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | Listening for connections at: tcp://HCLWRAVISO01:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | Listening for connections at: amqp://HCLWRAVISO01:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | Listening for connections at: stomp://HCLWRAVISO01:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | Listening for connections at: mqtt://HCLWRAVISO01:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | Listening for connections at ws://HCLWRAVISO01:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | Connector ws started
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | Apache ActiveMQ 5.10.0 (localhost, ID:HCLWRAVISO01-58118-1428582327237-0:1) started
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2015/04/09 17:55:27 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2015/04/09 17:55:28 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+INFO   | jvm 1    | 2015/04/09 18:03:51 |  INFO | Connector vm://localhost started

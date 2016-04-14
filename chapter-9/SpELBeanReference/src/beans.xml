@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+	<context:component-scan
+		base-package="org.packt.springframework.chapter3.SpEL.beanreference"></context:component-scan>
+
+	<bean id="addressBean"
+		class="org.packt.springframework.chapter3.SpEL.beanreference.Address">
+		<property name="id" value="12345"></property>
+		<property name="streetName" value="24th main"></property>
+		<property name="country" value="India"></property>
+	</bean>
+	<bean id="customerBean"
+		class="org.packt.springframework.chapter3.SpEL.beanreference.Customer">
+		<property name="custName" value="Ravi"></property>
+		<property name="address" value="#{addressBean}"></property>
+		<property name="country" value="#{addressBean.country}"></property>
+	</bean>
+</beans>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+
+	<aop:aspectj-autoproxy />
+
+	<bean name="employee" class="org.packt.Spring.chapter4.aspectJ.model.Employee">
+		<property name="empName" value="Ravi"></property>
+	</bean>
+
+	<bean name="employeeService"
+		class="org.packt.Spring.chapter4.aspectJ.service.EmployeeService"
+		autowire="byName"></bean>
+
+	<bean name="loggingAspect"
+		class="org.packt.Spring.chapter4.aspectJ.aspect.LoggingAspect">
+	</bean>
+
+</beans>

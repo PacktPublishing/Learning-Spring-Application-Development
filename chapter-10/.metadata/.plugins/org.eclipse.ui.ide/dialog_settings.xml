@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\rsoni\Desktop\ravi-book\Sashank Desai\Bonus Chapter 11\AspectJAnnotationExample"/>
+			<item value="C:\Users\rsoni\Desktop\ravi-book\Sashank Desai\Bonus Chapter 11\PayrollSystemUsingAOPandXml"/>
+			<item value="C:\Users\rsoni\Desktop\ravi-book\Sashank Desai\Bonus Chapter 11\PayrollSystemUsingAOP"/>
+			<item value="C:\Users\rsoni\Desktop\ravi-book\Sashank Desai\Bonus Chapter 11\SpringAOP"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="269" key="DIALOG_Y_ORIGIN"/>
+		<item value="377" key="DIALOG_HEIGHT"/>
+		<item value="710" key="DIALOG_X_ORIGIN"/>
+		<item value="true" key="TOGGLE_SELECTED"/>
+	</section>
+</section>

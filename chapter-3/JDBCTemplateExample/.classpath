@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/Final Draft/Spring Jar/spring-tx-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/Chapter-3/7368OS_05_JAR/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/Chapter-3/7368OS_05_JAR/derby.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/Chapter-3/7368OS_05_JAR/derbyclient.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/Chapter-3/7368OS_05_JAR/spring-aop-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/Chapter-3/7368OS_05_JAR/spring-aspects-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/Chapter-3/7368OS_05_JAR/spring-beans-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/Chapter-3/7368OS_05_JAR/spring-context-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/Chapter-3/7368OS_05_JAR/spring-core-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/Chapter-3/7368OS_05_JAR/spring-expression-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rsoni/Desktop/ravi-book/Sashank Desai/Chapter-3/7368OS_05_JAR/spring-jdbc-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

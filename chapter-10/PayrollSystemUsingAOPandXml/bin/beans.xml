@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.1.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+
+	<aop:config>
+		<aop:aspect id="loggingAspect" ref="loggingAspectBean">
+			<!-- pointcut declared -->
+			<aop:pointcut
+				expression="execution(* org.packt.Spring.AOP.aspectJ.service.*.*(..))"
+				id="serviceMethod" />
+
+			<!-- before advice definition -->
+			<aop:before method="beforeAdvice" pointcut-ref="serviceMethod" />
+
+			<!-- after advice definition -->
+			<aop:after method="afterAdvice" pointcut-ref="serviceMethod" />
+
+			<!-- after-returning advice definition -->
+			<aop:after-returning method="afterReturningAdvice"
+				pointcut-ref="serviceMethod" />
+
+			<!-- after-throwing advice definition -->
+			<aop:after-throwing method="afterThrowingAdvice"
+				pointcut-ref="serviceMethod" />
+
+			<!-- around advice definition -->
+			<aop:around method="aroundAdvice" pointcut-ref="serviceMethod" />
+		</aop:aspect>
+	</aop:config>
+
+	<bean id="loggingAspectBean" class="org.packt.Spring.AOP.aspectJ.aspect.LoggingAspect" />
+
+	<bean name="employee" class="org.packt.Spring.AOP.aspectJ.model.Employee">
+		<property name="empName" value="Ravi"></property>
+	</bean>
+
+	<bean id="employeeService" class="org.packt.Spring.AOP.aspectJ.service.EmployeeService"
+		autowire="byType" />
+
+</beans>

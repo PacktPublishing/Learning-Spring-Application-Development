@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+
+
+	<bean id="employeeBean"
+		class="src.org.packt.Spring.chapter2.constructioninjection.collection.Employee">
+		<property name="employeeName" value="Ravi Kant Soni"></property>
+	</bean>
+
+
+	<bean id="employeeServiceBean"
+		class="src.org.packt.Spring.chapter2.constructioninjection.collection.EmployeeService">
+		
+		<constructor-arg>
+			<list>
+				<value>Ravi Kant Soni</value>
+			<ref bean="employeeBean" />
+			</list>
+		</constructor-arg>
+		<constructor-arg>
+			<set>
+				<value>Ravi Kant Soni</value>
+				<ref bean="employeeBean" />
+			</set>
+		</constructor-arg>
+		<constructor-arg>
+			<map>
+				<entry key="Key 1" value="Ravi Kant Soni" />
+				<entry key="Key 2" value-ref="employeeBean" />
+			</map>
+		</constructor-arg>
+	</bean>
+</beans>

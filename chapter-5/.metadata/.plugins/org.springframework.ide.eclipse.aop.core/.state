@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="eHrPayrollSystem"/>
+<aop-project name="eHRPayrollFormHandling"/>
+<aop-project name="SpringMVCPayrollSystem"/>
+<aop-project name="SpringMVCWithException"/>
+<aop-project name="SpringMVCInternationalization"/>
+</aop-reference-model>

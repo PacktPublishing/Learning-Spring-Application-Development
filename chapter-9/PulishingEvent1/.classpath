@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/t_raviso/Spring Framework Book/Chapters/Chapter-2A/7368OS_01_SourceCode/SpringLooselyCoupled/Jar/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t_raviso/Spring Framework Book/Chapters/Chapter-2A/7368OS_01_SourceCode/SpringLooselyCoupled/Jar/spring-aop-3.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t_raviso/Spring Framework Book/Chapters/Chapter-2A/7368OS_01_SourceCode/SpringLooselyCoupled/Jar/spring-aspects-3.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t_raviso/Spring Framework Book/Chapters/Chapter-2A/7368OS_01_SourceCode/SpringLooselyCoupled/Jar/spring-beans-3.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t_raviso/Spring Framework Book/Chapters/Chapter-2A/7368OS_01_SourceCode/SpringLooselyCoupled/Jar/spring-context-3.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t_raviso/Spring Framework Book/Chapters/Chapter-2A/7368OS_01_SourceCode/SpringLooselyCoupled/Jar/spring-core-3.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t_raviso/Spring Framework Book/Chapters/Chapter-2A/7368OS_01_SourceCode/SpringLooselyCoupled/Jar/spring-expression-3.2.0.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
