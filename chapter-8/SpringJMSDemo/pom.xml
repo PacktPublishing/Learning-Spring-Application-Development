@@ -65,7 +65,7 @@
 
 			<artifactId>spring-core</artifactId>
 
-			<version>3.1.2.RELEASE</version>
+			<version>5.2.22.RELEASE</version>
 
 		</dependency>
 
