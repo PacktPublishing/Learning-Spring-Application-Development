@@ -21,7 +21,3 @@ application development.
 * [Spring MVC Beginner’s Guide](https://www.packtpub.com/application-development/spring-mvc-beginner%E2%80%99s-guide?utm_source=github&utm_medium=repository&utm_campaign=9781783284870)
 * [Spring Security [Video]](https://www.packtpub.com/application-development/spring-security-video?utm_source=github&utm_medium=repository&utm_campaign=9781782168652)
 * [Spring Security 3.1](https://www.packtpub.com/application-development/spring-security-31?utm_source=github&utm_medium=repository&utm_campaign=9781849518260)
-### Download a free PDF
-
- <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to download a free PDF copy of this book.</i>
-<p align="center"> <a href="https://packt.link/free-ebook/9781783987368">https://packt.link/free-ebook/9781783987368 </a> </p>
